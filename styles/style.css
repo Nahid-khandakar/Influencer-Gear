@@ -1,0 +1,79 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white
+}
+
+main{
+    align-items: center;
+}
+
+/* header  */
+
+header h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+/* section-1 grid item */
+
+.first-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.first-grid-info{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 120px;
+    
+
+}
+.first-grid-title{
+
+    font-size: 32px;
+    font-weight: 700;
+}
+.first-grid-message{
+    font-size: 16px;
+
+}
+.preebook-icon{
+    background-color: #E02C6D;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 30px;
+    width: 150px;
+    padding: 10px 24px;
+    margin-top: 48px;
+    margin-left: 20px;
+
+}
+
+.first-grid-image{
+
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 133px;
+    margin-right: 165px;
+}
+
+.first-grid-image img{
+    transition: transform 2s ease;
+}
+
+.first-grid-image:hover img{
+    transform: scale(1.3);
+}
+
+
+
+
+
