@@ -10,15 +10,17 @@ body{
 }
 
 main{
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* header  */
 
-header h3{
+.top-header{
     font-size: 24px;
     font-weight: 700;
-    margin-left: 227px;
+    margin-left: 120px;
 }
 
 /* section-1 grid item & 
@@ -33,7 +35,7 @@ make transtion in image */
 .first-grid-info{
     background-color: white;
     margin-top: 50px;
-    margin-left: 227px;
+    margin-left: 120px;
     
 
 }
@@ -279,12 +281,19 @@ footer{
 
 /* for Mobile  */
 
-@media  only screen and (max-width:688px){
+@media  only screen and (min-width:688px){
 
-    .first-grid-container{
-        width: 100%;
-    }
-    .first-grid-info .first-grid-image{
-        grid-template-columns: repeat(1,1fr);
-    }
+
+
+
+
+}
+
+
+
+/* for tablet */
+
+@media  only  screen  and (min-width:688px) and (max-width:992px){
+
+ 
 }
