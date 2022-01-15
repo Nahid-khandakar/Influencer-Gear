@@ -21,7 +21,8 @@ header h3{
     margin-left: 227px;
 }
 
-/* section-1 grid item */
+/* section-1 grid item & 
+make transtion in image */
 
 .first-grid-container{
     display: grid;
@@ -203,12 +204,13 @@ header h3{
     margin-bottom: 40px;
     padding: 30px;
     border-radius: 10px;
-    transition: color 1s ease-out;
+    transition: color 1s ;
 
 }
 
 .item:hover{
 
+    transform: rotate(2deg);
     background-color: black;
     color: rgba(218, 165, 32, 0.808);
     
@@ -273,11 +275,16 @@ footer{
     
 }
 
+/* Media queries  */
 
+/* for Mobile  */
 
+@media  only screen and (max-width:688px){
 
-
-
-
-
-
+    .first-grid-container{
+        width: 100%;
+    }
+    .first-grid-info .first-grid-image{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
