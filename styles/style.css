@@ -18,7 +18,7 @@ main{
 header h3{
     font-size: 24px;
     font-weight: 700;
-    margin-left: 120px;
+    margin-left: 227px;
 }
 
 /* section-1 grid item */
@@ -31,8 +31,8 @@ header h3{
 
 .first-grid-info{
     background-color: white;
-    margin-top: 100px;
-    margin-left: 120px;
+    margin-top: 50px;
+    margin-left: 227px;
     
 
 }
@@ -82,7 +82,7 @@ header h3{
     height: 1880px; 
     margin-top: 235px;
     margin-left: 227px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 
@@ -159,6 +159,76 @@ header h3{
     text-decoration: none; 
     color: #E02C6D;
 }
+
+
+/* Third section grid and transtion style  */
+
+.third-section-container{
+    width: 1047px;
+    margin-left: 227px;
+    background-color:#FFFFFF;
+    box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.third-section-header{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.third-section-message{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.marketing-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.item{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.fa-globe-europe{
+    font-size: 50px;
+}
+.fa-chart-pie{
+    font-size: 50px;
+}
+
+.fa-list-alt{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer section  */
