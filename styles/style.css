@@ -11,7 +11,8 @@ body{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    
     
 }
 
@@ -20,7 +21,7 @@ main{
 .top-header{
     font-size: 24px;
     font-weight: 700;
-    margin-left: 120px;
+    margin-left: 227px;
 }
 
 /* section-1 grid item & 
@@ -35,7 +36,7 @@ make transtion in image */
 .first-grid-info{
     background-color: white;
     margin-top: 50px;
-    margin-left: 120px;
+    margin-left: 227px;
     
 
 }
@@ -281,7 +282,38 @@ footer{
 
 /* for Mobile  */
 
-@media  only screen and (min-width:688px){
+@media  only screen and (max-width:400px){
+
+
+    .first-grid-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center; 
+        width: 375px;
+        height: 812px;
+    }
+
+    .first-grid-image img{
+        width: 250px;
+        margin-left: 70px;
+    
+    }
+
+
+    .second-grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 375px;
+        height: 812px;
+    
+    }
+
+
 
 
 
