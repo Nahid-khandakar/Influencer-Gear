@@ -10,10 +10,7 @@ body{
 }
 
 main{
-    display: flex;
-    flex-direction:column;
-    
-    
+  
 }
 
 /* header  */
@@ -22,6 +19,8 @@ main{
     font-size: 24px;
     font-weight: 700;
     margin-left: 227px;
+
+
 }
 
 /* section-1 grid item & 
@@ -30,6 +29,7 @@ make transtion in image */
 .first-grid-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+
 
 }
 
@@ -66,7 +66,7 @@ make transtion in image */
 
     background-color: white;
     margin-top: 70px;
-    margin-left: 133px;
+    margin-left: 134px;
     margin-right: 165px;
 }
 
@@ -83,11 +83,10 @@ make transtion in image */
 .second-grid-container{
     
     width: 1047px;
-    height: 1880px; 
     margin-top: 235px;
     margin-left: 227px;
     margin-bottom: 50px;
-
+    
 }
 
 .second-grid-header{
@@ -175,6 +174,8 @@ make transtion in image */
     box-shadow:0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     margin-bottom: 70px;
+    
+    
 }
 
 .third-section-header{
@@ -195,6 +196,8 @@ make transtion in image */
     grid-template-columns: repeat(3,1fr);
     margin-top: 40px;
     align-items: center;
+    justify-content: center;
+  
     
 }
 
@@ -234,12 +237,11 @@ make transtion in image */
 
 /* footer section  */
 
-footer{
-    width: 100%;
-    height: 239px;
+.footer-body{
+   
     background-color: #0A0826;
-
-
+    width: auto;
+    
 }
 .footer-items{
 
@@ -247,7 +249,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+   padding-bottom: 30px;
 }
 
 .footer-title{
@@ -270,32 +272,40 @@ footer{
     flex-direction: row;
     color: #FFFF;
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: 10px ;
     align-items: center;
-    justify-content: space-around;
-    width: 176px;
-    height: 32px;
+    
     
 }
+
+.icon-bg{
+    background-color: #7d76944f;
+    width: 31px;
+    height: 31px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 80%;
+    margin-left: 30px;
+}
+
 
 /* Media queries  */
 
 /* for Mobile  */
 
-@media  only screen and (max-width:400px){
+@media (max-width:576px){
 
 
     .first-grid-container{
         display:grid;
         grid-template-columns: repeat(1,1fr);
         justify-content: center; 
-        width: 375px;
-        height: 812px;
+
     }
 
     .first-grid-image img{
         width: 250px;
-        margin-left: 70px;
+
     
     }
 
@@ -308,16 +318,22 @@ footer{
     .collections{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 375px;
-        height: 812px;
+        width: 400px;
+        height: 576px;
     
     }
 
+    .third-section-container{
 
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 
+    .marketing-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
 
-
-
+    }
 
 }
 
@@ -325,7 +341,31 @@ footer{
 
 /* for tablet */
 
-@media  only  screen  and (min-width:688px) and (max-width:992px){
+@media  only  screen  and (min-width:576px) and (max-width:768px){
 
- 
+
+
+    .first-grid-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center; 
+
+    }
+
+
+
+
+    .second-grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 400px;
+        height: 576px;
+    
+    }
+
 }
